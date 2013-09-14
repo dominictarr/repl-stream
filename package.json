@@ -1,0 +1,23 @@
+{
+  "name": "repl-stream",
+  "description": "run remote repl over any stream",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/repl-stream",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/repl-stream.git"
+  },
+  "dependencies": {
+    "hyperscript": "~1.1.1",
+    "shoe": "0.0.15",
+    "reconnect": "~1.5.2",
+    "cycle": "~1.0.2",
+    "stream-serializer": "~1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
